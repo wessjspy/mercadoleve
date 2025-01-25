@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Leve</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    ::placeholder{
+        color: black;
+    }
+    .header h1{
+        cursor: wait;
+    }
+
+    .provocant {
+        display: inline-block;
+        animation: slide 9s linear infinite;
+        overflow: hidden;
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(-65%);
+        }
+        100% {
+            transform: translateX(50%);
+        }
+    }
+</style>
+<body
+    style="
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin: 0; 
+    "
+>
+    <div class="header">
+        <h1
+            style="
+                text-align: center;
+                font-size: 20px;
+                position: relative;
+                background-color: rgb(0, 36, 15);
+                width: 100%;
+                height: 75px;
+                padding-top: 15px;
+                color: white;
+            "
+        >
+            Mercado Leve
+        </h1>
+        <input
+            type="search"
+            placeholder="Busque aqui!"
+            style="
+                border-radius: 2px;
+                border-style: none;
+                text-align: center;
+                outline: none;
+                display: block;
+                margin: 0 auto;
+                position: relative;
+                top: -35px;
+                cursor: text;
+            "
+        >
+    </div>
+    <div class="icos">
+        <a 
+            href="./cart.html" 
+        >
+            <i 
+                class="fa-solid fa-cart-shopping"
+                style="
+                    color: rgb(0, 36, 15);
+                    background-color: white;
+                    width: 30px;
+                    height: 30px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    display: flex;
+                    position: fixed;
+                    top: 30px;
+                    left: 15px;
+                "    
+            ></i>
+        </a>
+        <a 
+            href="./login.html"
+        >
+            <i 
+                class="fa-solid fa-user"
+                style="
+                    color: rgb(0, 36, 15);
+                    background-color: white;
+                    width: 30px;
+                    height: 30px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    display: flex;
+                    position: fixed;
+                    top: 30px;
+                    right: 20px;
+                "
+            >
+            </i>
+        </a>
+        <p 
+            class="provocant"
+            style="
+                color: black;
+                font-size: 12px;
+                display: flex;
+                position: relative;
+                top: -15px;
+                justify-content: center;
+            "    
+        >
+            - Descontos de aliviar o seu bolso -
+        </p>
+    </div>
+    <div 
+        class="product" 
+    >
+        <h1
+            style="
+                color: black;
+                font-size: 15px;
+                text-align: center;
+            "
+        >
+            Produtos em alta!
+        </h1>
+            <ul 
+            style="
+                display: flex; 
+                justify-content: center; 
+                gap: 20px; 
+                padding: 0; 
+                list-style-type: none;
+            " 
+        >
+            <li class="15"       
+                style="
+                    box-shadow: 0 2px 2px 0 rgb(0, 36, 15);
+                    width: 180px;
+                    height: 180px;
+                    border-radius: 20px;
+                    display: flex;
+                    position: relative;
+                " 
+            >
+            <img 
+                src="https://http2.mlstatic.com/D_NQ_NP_768125-MLA71783090116_092023-O.webp"
+                style="
+                    transform: scale(0.5);
+                    display: flex;
+                    position: relative;
+                    left: 15px;
+                    top: -10px;
+                    cursor: pointer;
+                "
+            >
+                <h4
+                    style="
+                        color: black;
+                        white-space: nowrap;
+                        display: flex;
+                        position: relative;
+                        right: 70%;
+                        top: 15px;
+                    "
+                >
+                    iPhone 15 Pro Max
+                </h4>
+                <h4
+                    style="
+                        color: black;
+                        white-space: nowrap;
+                        display: flex;
+                        position: relative;
+                        right: 130%;
+                        top: 130px;
+                    "
+                >
+                    R$ 7.699
+                </h4>
+                <h4
+                    style="
+                        color: rgb(0, 157, 0);
+                        white-space: nowrap;
+                        display: flex;
+                        position: relative;
+                        right: 172%;
+                        top: 150px;
+                    "
+                >
+                    Frete grátis
+                </h4>
+            </li>
+            <li class="16"      
+                style="
+                    box-shadow: 0 2px 2px 0 rgb(0, 36, 15);
+                    width: 180px;
+                    height: 180px;
+                    border-radius: 20px;
+                    display: flex;
+                    position: relative;
+                " 
+            >
+            <img 
+                src="https://http2.mlstatic.com/D_NQ_NP_894637-MLA79138856715_092024-O.webp"
+                style="
+                    transform: scale(0.5);
+                    display: flex;
+                    position: relative;
+                    left: 15px;
+                    top: -10px;
+                    cursor: pointer;
+                "
+            >
+            <h4 
+                style="
+                    color: black;
+                    white-space: nowrap;
+                    display: flex;
+                    position: relative;
+                    right: 53%;
+                    top: 15px;
+                "
+            >
+                iPhone 16
+            </h4>
+            <h4
+                style="
+                    color: black;
+                    white-space: nowrap;
+                    display: flex;
+                    position: relative;
+                    right: 93%;
+                    top: 130px;
+                "
+            >
+                R$ 8.199
+            </h4>
+            <h4
+                style="
+                    color: rgb(0, 157, 0);
+                    white-space: nowrap;
+                    display: flex;
+                    position: relative;
+                    right: 133%;
+                    top: 150px;
+                "
+            >
+                Frete grátis
+            </h4>
+            </li>
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
